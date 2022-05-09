@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vibhakar Solanki</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="text/javascript" href="/static/js/main.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"></script>
+    <script src="static/js/lodash.min.js.js"></script>
+    <script src="static/js/moment.min.js"></script>
+
+
+    <!--  fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="PS1">
+        <div>
+            <span class="brackets">[</span> <span class="ps1-username">gala</span><span class="ps1-at">@</span><span class="ps1-hostname">gala-arch</span> <span class="brackets">]</span>
+            <span>
+                <span class="brackets">[</span><span class="ps1-cwd">~</span><span class="brackets">]</span>
+            </span>
+        </div>
+        <div>
+            <span class="ps1-prompt">$</span> <span class="ps1-command">fetch</span> <span class="ps1-arg">about</span>
+        </div>
+        <div class="cursor blink">
+            ⌷
+        </div>
+    </div>
+    <div class="cat-output-container">
+            <div class="cat-output">
+            <div class="navbar">
+                <span class="navbar-item">Home</span>
+                <span class="navbar-item">Contact</span>
+            </div>
+            <div class="neofetch">
+                <div class="ascii_art_container">
+                    <pre id="ascii_art"></pre>
+                    <span id="ascii_art_name"></span>
+                </div>
+                <div class="status_info">
+                    <div class="username_info">
+                        <span class="ps1-username">gala</span><span class="ps1-at">@</span><span class="ps1-hostname">gala-arch</span>
+                    </div>
+                    <div class="ps1-hostname">-----------------------</div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Real Name:</span>
+                        <span class="ps1-command">Vibhakar Solanki</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Job Status:</span>
+                        <span class="ps1-command">Upgrading Self (Studying)</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Online Status</span>
+                        <span class="ps1-command" id="online-status">Online <span id="online-status-dot" class="online"></span></span>
+                    </div>
+
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">OS:</span>
+                        <span class="ps1-command">Coffee</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Location:</span>
+                        <span class="ps1-command">Meerut, India</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Kernel:</span>
+                        <span class="ps1-command">69.42.0</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Uptime:</span>
+                        <span id="uptime" class="ps1-command">69.42.0</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Packages:</span>
+                        <span class="ps1-command">I can explain 😢</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Shell:</span>
+                        <span class="ps1-command">Alacritty</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Resolution:</span>
+                        <span class="ps1-command">4k 📸</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">CPU:</span>
+                        <span class="ps1-command">AMD Ryzen 5 5600X (12) @ 4.300GHz</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">GPU:</span>
+                        <span class="ps1-command">NVIDIA GeForce RTX 3070 (MSRP)</span>
+                    </div>
+                    <div class="status_info_item">
+                        <span class="ps1-hostname bold">Memory:</span>
+                        <span class="ps1-command">Loss</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/asciifetch.js"></script>
+</body>
+
+</html>
