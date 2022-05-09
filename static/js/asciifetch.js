@@ -38,11 +38,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const ascii_art_elem = document.getElementById("ascii_art");
     ascii_art_elem.style.color = randomColor();
     const index = Math.floor(Math.random()*distro_ascii.length);
-    ascii_art_elem.textContent = _.trim(distro_ascii[index]);
+    ascii_art_elem.textContent = _.trimEnd(distro_ascii[index]);
     document.getElementById("ascii_art_name").textContent = distro_names[index];
     const uptime = moment.duration(moment(new Date().setHours(8,0,0)).diff(new Date()));
-    const uptime_string = (uptime.hours() < 0) ? `since ${Math.abs(uptime.hours())} hours, ${Math.abs(uptime.minutes())} mins` : `in ${Math.abs(uptime.hours())} hours, ${Math.abs(uptime.minutes())} mins`;
-    document.getElementById("uptime").textContent = uptime_string;
+    document.getElementById("uptime").textContent = (uptime.hours() < 0) ? `since ${Math.abs(uptime.hours())} hours, ${Math.abs(uptime.minutes())} mins` : `in ${Math.abs(uptime.hours())} hours, ${Math.abs(uptime.minutes())} mins`;
 
 
 });
