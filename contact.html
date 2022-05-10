@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Reach me here!!</title>
     <link rel="stylesheet" href="/static/css/main.css">
-    <link rel="text/javascript" href="/static/js/main.js">
 </head>
 <body>
     <div class="PS1">
@@ -15,11 +14,11 @@
             </span>
         </div>
         <div>
-            <span class="ps1-prompt">$</span> <span class="ps1-command">cat</span> <span class="ps1-arg">contact_info.txt</span>
+            <label class="ps1-prompt">$<input id="command-input" type="text" placeholder="fetch [about,contact]" autofocus></label>
         </div>
-        <div class="cursor blink">
-            ⌷
-        </div>
+        <div id="error-text"></div>
+        <div id="stdout"></div>
     </div>
+    <script src="/static/js/main.js"></script>
 </body>
 </html>
