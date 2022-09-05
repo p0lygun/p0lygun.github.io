@@ -7,6 +7,7 @@
     --fg-color-2: #566f8a;
     --fg-color-3: #202d34;
     --norm-trans: 200ms;
+    --cmd-bg : rgba(0, 0, 0, 0.18);
 
 }
 
@@ -19,7 +20,6 @@
 * {
     margin: 0;
     color: var(--fg-color);
-    background-color: var(--bg-color);
     transition: all 300ms ease;
     z-index: 1;
     /*background-color: #1B262C;*/
@@ -34,9 +34,11 @@ body {
     width: 100%;
     display: table-cell;
     position: relative;
+    background-color: var(--bg-color);
     font-family: 'Roboto Mono', monospace;
 }
 html, body {
+    overflow: hidden;
     margin: 0;
     padding: 0;
 }
@@ -57,24 +59,73 @@ a {
   animation: blink 1s step-start 0s infinite;
 }
 
+@keyframes cmd-bg-flash {
+    from {
+        background-color: var(--cmd-bg);
+    }
+    to {
+        background-color: var(--fg-color-3);
+
+
+
+    }
+}
+
+@keyframes cmd-ease-in {
+    from {
+        bottom: -10%;
+        opacity: 0;
+
+    }
+    to {
+        bottom: 0;
+        opacity: 100;
+    }
+
+}
 
 .PS1 {
     position: absolute;
-    float: left;
-    max-width: fit-content;
+    opacity: 0;
+    background-color: var(--cmd-bg);
     display: flex;
+    width: 100%;
+    border-color: #6e8eaf;
+    bottom: 0;
     flex-direction: column;
+
     font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
-    filter: blur(.06rem);
+    padding-top: 5px;
+    padding-bottom: 3px;
+    /*filter: blur(.06rem);*/
     z-index: 0;
+    animation-name: cmd-ease-in, cmd-bg-flash;
+    animation-duration: 500ms;
+    animation-delay: 2s, 2100ms;
+    animation-fill-mode: forwards, none;
 }
+
+input {
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+    caret-shape: block;
+    font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+    font-size: 18px;
+}
+input:focus{
+    outline: none !important;
+}
+
+
+
 .PS1 .brackets, .ps1-at{
     color: #6e8eaf;
 }
 .ps1-username {
     color: yellow;
 }
-.ps1-hostname, .cursor {
+.ps1-hostname, .cursor, .stdout {
     color: #566f8a;
 }
 .ps1-cwd {
@@ -84,14 +135,17 @@ a {
     color: darkred;
 }
 .navbar{
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 20px;
     align-self: start;
     margin-bottom: 40px;
-
-
 }
+.PS1 #error-text{
+    color: red;
+    font-weight: bold;
+}
+
 .navbar-item{
     padding: 10px;
     background-color: var(--fg-color-2);
