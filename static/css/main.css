@@ -231,3 +231,21 @@ input:focus{
     border-radius: 50%;
     background-color: #ff0000;
 }
+.socials-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 10px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.socials > *:hover{
+    transform: scale(1.1);
+}
