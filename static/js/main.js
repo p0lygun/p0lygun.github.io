@@ -1,4 +1,6 @@
-window.addEventListener('load', schedule_set_online_presence)
+if(window.location.hostname !== "0.0.0.0") {
+    window.addEventListener('load', schedule_set_online_presence)
+}
 
 async function schedule_set_online_presence(){
     await fetch("https://ranger.stilllearning.tech/user/?id=338947895665360898&guild_id=870246147455877181").then(
