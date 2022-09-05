@@ -189,6 +189,9 @@ input:focus{
     font-size: 16px;
     gap: 10px;
 }
+.ascii_art_container p{
+    color: var(--cmd-bg);
+}
 #ascii_art {
     -webkit-user-select: all;
     user-select: all;
