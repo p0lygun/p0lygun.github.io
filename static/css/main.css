@@ -249,3 +249,8 @@ input:focus{
 .socials > *:hover{
     transform: scale(1.1);
 }
+.btn-container {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
