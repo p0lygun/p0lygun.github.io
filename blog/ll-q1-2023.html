@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vibhakar Solanki</title>
+    <link rel="stylesheet" href="../static/css/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"></script>
+    <script src="../static/js/lodash.min.js.js"></script>
+    <script src="../static/js/moment.min.js"></script>
+
+    <!--  fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- HTML Meta Tags -->
+    <title>Vibhakar Solanki</title>
+    <meta name="description" content="Rolling updates into my life." />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://p0lygun.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vibhakar Solanki" />
+    <meta property="og:description" content="Rolling updates into my life." />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/p0lygun/p0lygun.github.io/main/static/images/image.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="p0lygun.github.io" />
+    <meta property="twitter:url" content="https://p0lygun.github.io/" />
+    <meta name="twitter:title" content="Vibhakar Solanki" />
+    <meta name="twitter:description" content="Rolling updates into my life." />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/p0lygun/p0lygun.github.io/main/static/images/image.png"
+    />
+  </head>
+  <body>
+    <div class="blog-container">
+      <div class="blog-heading">
+        Learning Log <span class="learning-duration">[Jan - March]</span>
+      </div>
+      <div class="blog-content">
+        <div>
+          Hi there, Thank you for reading my learning log for the first quarter
+          of 2023. I am going to share what I have learned in the last three
+          months. I hope you will find it useful.
+        </div>
+        <hr width="100%" />
+        <div class="blog-tldr">
+          <div class="blog-tldr-heading">TL;DR</div>
+          <div>
+            I learned Rust, Data Science, maintaining bfportal.gg and
+            contributing to django, is-a-dev and community tools.
+          </div>
+        </div>
+        <div class="blog-log-heading">Full log</div>
+        <div class="blog-log">
+          <div class="blog-log-heading month">January</div>
+          <div class="blog-log-content">
+            <img src="../static/images/ll-rust.jpg" class="rounded" />
+            At the start of the year, I decided that I will be learning Rust.
+            For, the next month I was learning the basics of Rust. The borrow
+            checker in rust was a new concept for me. The last static language
+            that I used was C++ and I was not familiar with the concept of
+            ownership. I was able to learn the basics of Rust in a month. I was
+            able to build a simple CLI application in Rust. Currently, I am in
+            the last chapter of the book about building a web server in Rust.
+          </div>
+          <div class="blog-log-heading month">February</div>
+          <div class="blog-log-content">
+            Then as January came to a close, I was very interested in ChatGPT.
+            The more I looked into it, the more I got interested in data science
+            and machine learning. I spent most of my time completing the course
+            <a href="https://www.udemy.com/course/deeplearning/" target="_blank"
+              >"Deep Learning A-Z™ 2023: Neural Networks"</a
+            >
+            on udemy. I learned concepts like ANN, CNN, and Boltzmann Machine.
+            During this time I also played with
+            <b>Wagtail API for <a href="https://bfportal.gg/">bfportal.gg</a></b
+            >. I wanted to expose the creator of an experience in the API. But
+            as the creator is a nested user field it can't be in the API as a
+            field of its own. So I made use of
+            <a
+              href="https://github.com/battlefield-portal-community/bfportal.gg/commit/25f7965a74df0f067caca8e632947a03b303ec79"
+              target="_blank"
+              >`@property`</a
+            >
+            so that a function can resolve the nested property into a single
+            value. Then google shared accepted GSOC orgs with us. I am excited
+            as both Wagtail and Django got selected.
+          </div>
+          <div class="blog-log-heading month">March</div>
+          <div class="blog-log-content">
+            <img src="../static/images/ll-perf.png" class="rounded" />
+            <br>
+            Then came march and I wanted to get selected as a GSOC contributor
+            this year. I started <b style="color: pink;">contributing to Django</b> and got my <a href="https://github.com/django/django/pull/16538" target="_blank">first PR</a> in
+            the project approved and merged 😁 . During this month bfportal had
+            two major events.<br><br> Its userbase crossed 2k users <br> Migrating the
+            project to use Python 3.11.<br><br> I was also using `runserver` in
+            production but now the project uses `gunicorn`. That gave the
+            project a very very good performance boost (I've attached the usage
+            graph). Currently, I'm preparing for my Maths exam (is on the 28th
+            of march) and drafting my proposal for GSOC.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

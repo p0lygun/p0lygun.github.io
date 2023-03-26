@@ -38,17 +38,25 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 html, body {
-    overflow: hidden;
     margin: 0;
     padding: 0;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: pink;
+}
+a:active {
+
+    color: pink
 }
 
 .bold {
     font-weight: bold;
 }
+.rounded {
+    border-radius: 10px;
+}
+
 @keyframes blink {
   50% {
     opacity: 0.0;
@@ -109,7 +117,6 @@ input {
     margin-left: 5px;
     background-color: transparent;
     border: none;
-    caret-shape: block;
     font-family: 'Consolas', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
     font-size: 18px;
 }
@@ -259,8 +266,9 @@ input:focus{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .blog-heading {
     font-size: 4rem;
@@ -272,4 +280,39 @@ input:focus{
     font-weight: bold;
     color: var(--fg-color-3);
     font-family: 'Russo One', sans-serif;
+}
+
+.blog-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+}
+
+.blog-content > * {
+    font-size: 1.2rem;
+    text-align: left;
+}
+.blog-tldr-heading {   
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+.blog-log-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+.blog-log-heading.month {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.blog-log {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
 }
