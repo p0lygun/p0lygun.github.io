@@ -30,7 +30,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: false # only hide on current single page
 editPost:
-    URL: "https://github.com/p0lygun/p0lygun.github.io/tree/main/blog"
+    URL: "https://github.com/p0lygun/p0lygun.github.io/tree/main/content/blog"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---

@@ -85,7 +85,7 @@ tocopen = false
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/p0lygun/p0lygun.github.io/tree/main/blog"
+  URL = "https://github.com/p0lygun/p0lygun.github.io/tree/main/content/blog"
   Text = "Suggest Changes"
   appendFilePath = true
 
