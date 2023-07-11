@@ -1,4 +1,4 @@
-baseURL = "https://stilllearning.com/"
+baseURL = "https://stilllearning.tech/"
 title = "Still Learning"
 paginate = 5
 theme = "PaperMod"
