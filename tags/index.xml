@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Still Learning</title>
-    <link>https://stilllearning.com/tags/</link>
+    <link>https://stilllearning.tech/tags/</link>
     <description>Recent content in Tags on Still Learning</description>
     <image>
       <title>Still Learning</title>
-      <url>https://stilllearning.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://stilllearning.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://stilllearning.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://stilllearning.tech/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jul 2023 19:48:25 +0530</lastBuildDate><atom:link href="https://stilllearning.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 19:48:25 +0530</lastBuildDate><atom:link href="https://stilllearning.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blog</title>
-      <link>https://stilllearning.com/tags/blog/</link>
+      <link>https://stilllearning.tech/tags/blog/</link>
       <pubDate>Tue, 11 Jul 2023 19:48:25 +0530</pubDate>
       
-      <guid>https://stilllearning.com/tags/blog/</guid>
+      <guid>https://stilllearning.tech/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hello-world</title>
-      <link>https://stilllearning.com/tags/hello-world/</link>
+      <link>https://stilllearning.tech/tags/hello-world/</link>
       <pubDate>Tue, 11 Jul 2023 19:48:25 +0530</pubDate>
       
-      <guid>https://stilllearning.com/tags/hello-world/</guid>
+      <guid>https://stilllearning.tech/tags/hello-world/</guid>
       <description></description>
     </item>
     
