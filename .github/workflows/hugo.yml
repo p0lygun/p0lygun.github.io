@@ -19,7 +19,7 @@ concurrency:
 defaults:
   run:
     shell: bash
-    working-directory: hugo
+
 
 jobs:
   build:
@@ -54,10 +54,12 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
+        working-directory: hugo            
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
+          path: ./hugo/public
 
   # Deployment job
   deploy:
