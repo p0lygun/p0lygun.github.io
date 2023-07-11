@@ -36,4 +36,4 @@ editPost:
 ---
 # Hello World
 
-This is the start of my blog, i've been using hugo a lot for [portal-docs](https://github.com/battlefield-portal-community/portal-docs "Portal Docs"), and i absolutely love it :).
+This is the start of my blog, I've been using Hugo a lot for [portal-docs](https://github.com/battlefield-portal-community/portal-docs "Portal Docs"), and i absolutely love it :).

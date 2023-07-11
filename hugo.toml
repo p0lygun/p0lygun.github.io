@@ -122,6 +122,3 @@ weight = 1
 [markup.highlight]
 noClasses = false
 
-[[module.mounts]]
-source = "../blog"
-target = "content"

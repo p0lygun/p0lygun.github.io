@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "085d1a6cc6a752b8",
+    "id": "e3dc26a8e6be26a8",
     "type": "split",
     "children": [
       {
-        "id": "773b8b19bb81a0a5",
+        "id": "b36c332526344465",
         "type": "tabs",
         "children": [
           {
-            "id": "107e6c0f02f6a25f",
+            "id": "e8fb968210f57f15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/hello-world.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "60fda3658265e96e",
+    "id": "e28374f8c124488e",
     "type": "split",
     "children": [
       {
-        "id": "d2be5b317c2658c6",
+        "id": "ebb7ccc6776fa110",
         "type": "tabs",
         "children": [
           {
-            "id": "507c3130956dd3a5",
+            "id": "4352822ed9e9aef1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "b9fc857f32ed1e93",
+            "id": "7bcbbbfcf63a7764",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "a60622a0e62c985b",
+            "id": "4f38319be3089ca8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "79d742b92e503265",
+    "id": "79c938f485d33575",
     "type": "split",
     "children": [
       {
-        "id": "0038a8681049225b",
+        "id": "0c3dcf5e6e0cf2df",
         "type": "tabs",
         "children": [
           {
-            "id": "a932ace79f2d38ad",
+            "id": "c5126e90dc5eb0f2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/hello-world.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "fc058a05631b9509",
+            "id": "99240c862791c4bc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/hello-world.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "977f5e486697e733",
+            "id": "a0273d895dbeed59",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "ba5f4f999a7d1423",
+            "id": "6857db047dea3094",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blog/hello-world.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,6 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "107e6c0f02f6a25f",
+  "active": "e8fb968210f57f15",
   "lastOpenFiles": []
 }

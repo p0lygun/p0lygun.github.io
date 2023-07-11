@@ -24,7 +24,6 @@ jobs:
           extended: true
 
       - name: Build
-        working-directory: ./hugo
         run: hugo --minify
 
       - name: Deploy
@@ -32,4 +31,4 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./hugo/public
+          publish_dir: ./public
