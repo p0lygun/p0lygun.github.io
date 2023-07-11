@@ -69,7 +69,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Hi there 👋"
-  Content = "Welcome to my blog"
+  Content = "My name is **Vibhakar \"gala\" Solanki**, and I'm a software engineer. I'm in my final year of B.Tech degree.  \n  \nI'm passionate about building scalable, reliable, and performant systems.  \nInterested in Machine Learning, distributed systems, and web dev. and currently learning about [Rust](https://www.rust-lang.org) and maintaining [Battlefield Portal Community](github.com/battlefield-portal-community/).  \nI am also doing **freelacing** work."
 
   [[params.socialIcons]]
   name = "twitter"
@@ -105,17 +105,17 @@ url = "/blog/"
 weight = 1
 
 
-[[menu.main]]
-identifier = "categories"
-name = "Categories"
-url = "/categories/"
-weight = 10
+# [[menu.main]]
+# identifier = "categories"
+# name = "Categories"
+# url = "/categories/"
+# weight = 10
 
-[[menu.main]]
-identifier = "tags"
-name = "Tags"
-url = "/tags/"
-weight = 20
+# [[menu.main]]
+# identifier = "tags"
+# name = "Tags"
+# url = "/tags/"
+# weight = 20
 
 
 
