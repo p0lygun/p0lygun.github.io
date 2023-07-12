@@ -99,10 +99,17 @@ tocopen = false
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
+identifier = "diary"
+name = "Diary"
+url = "/diary/"
+weight = 1
+
+[[menu.main]]
 identifier = "blog"
 name = "Blog"
 url = "/blog/"
-weight = 1
+weight = 2
+
 
 
 # [[menu.main]]
@@ -122,3 +129,6 @@ weight = 1
 [markup.highlight]
 noClasses = false
 
+[[module.mounts]]
+source = 'images'
+target = 'static/img'
