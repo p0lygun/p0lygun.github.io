@@ -44,6 +44,7 @@ tocopen = false
   favicon32x32 = "<link / abs url>"
   apple_touch_icon = "<link / abs url>"
   safari_pinned_tab = "<link / abs url>"
+  disableHLJS= true
 
   [params.label]
   text = "Home"
@@ -127,8 +128,20 @@ weight = 2
 
 
 [markup.highlight]
-noClasses = false
+noClasses = true
+codeFences= true
+guessSyntax= true
+lineNos= true
+style="monokai"
+
 
 [[module.mounts]]
 source = 'images'
-target = 'static/img'
+target = 'assets/img'
+
+
+[[module.mounts]]
+  excludeFiles = 'templates/*'
+  source = 'content'
+  target = 'content'
+

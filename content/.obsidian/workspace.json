@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-07-12.md",
+                "file": "blog/hello-world.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7e454233cb037ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blog/adventures-with-docker-multistage-build.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "79c938f485d33575",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-07-12.md",
+                "file": "blog/adventures-with-docker-multistage-build.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-07-12.md",
+                "file": "blog/adventures-with-docker-multistage-build.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-07-12.md"
+                "file": "blog/adventures-with-docker-multistage-build.md"
               }
             }
           }
@@ -149,9 +163,12 @@
   "active": "4352822ed9e9aef1",
   "lastOpenFiles": [
     "blog/hello-world.md",
+    "diary/2023-07-13.md",
     "blog/adventures-with-docker-multistage-build.md",
+    "Juggernaut.md",
+    "templates/diary.md",
+    "templates",
     "diary/2023-07-12.md",
-    "diary/Untitled.md",
     "adventures-with-docker-multistage-build.md"
   ]
 }

@@ -2,10 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 # weight: 1
-# aliases: ["/first"]
 tags: [""]
 author: "Vibhakar \"Gala\" Solanki"
-# author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
 draft: false
