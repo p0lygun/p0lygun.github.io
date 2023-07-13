@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://stilllearning.tech/tags/blog/</loc>
-    <lastmod>2023-07-11T19:48:25+05:30</lastmod>
+    <loc>https://stilllearning.tech/blog/adventures-with-docker-multistage-build/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
   </url><url>
     <loc>https://stilllearning.tech/blog/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
+  </url><url>
+    <loc>https://stilllearning.tech/tags/dev-ops/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
+  </url><url>
+    <loc>https://stilllearning.tech/tags/docker/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
+  </url><url>
+    <loc>https://stilllearning.tech/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
+  </url><url>
+    <loc>https://stilllearning.tech/tags/</loc>
+    <lastmod>2023-07-11T23:54:15+05:30</lastmod>
+  </url><url>
+    <loc>https://stilllearning.tech/tags/blog/</loc>
     <lastmod>2023-07-11T19:48:25+05:30</lastmod>
   </url><url>
     <loc>https://stilllearning.tech/blog/hello-world/</loc>
@@ -14,13 +29,9 @@
     <loc>https://stilllearning.tech/tags/hello-world/</loc>
     <lastmod>2023-07-11T19:48:25+05:30</lastmod>
   </url><url>
-    <loc>https://stilllearning.tech/</loc>
-    <lastmod>2023-07-11T19:48:25+05:30</lastmod>
-  </url><url>
-    <loc>https://stilllearning.tech/tags/</loc>
-    <lastmod>2023-07-11T19:48:25+05:30</lastmod>
-  </url><url>
     <loc>https://stilllearning.tech/diary/2023-07-12/</loc>
+  </url><url>
+    <loc>https://stilllearning.tech/diary/2023-07-13/</loc>
   </url><url>
     <loc>https://stilllearning.tech/categories/</loc>
   </url><url>

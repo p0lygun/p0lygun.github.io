@@ -11,7 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Jul 2023 19:48:25 +0530</lastBuildDate><atom:link href="https://stilllearning.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2023 23:54:15 +0530</lastBuildDate><atom:link href="https://stilllearning.tech/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dev-ops</title>
+      <link>https://stilllearning.tech/tags/dev-ops/</link>
+      <pubDate>Tue, 11 Jul 2023 23:54:15 +0530</pubDate>
+      
+      <guid>https://stilllearning.tech/tags/dev-ops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://stilllearning.tech/tags/docker/</link>
+      <pubDate>Tue, 11 Jul 2023 23:54:15 +0530</pubDate>
+      
+      <guid>https://stilllearning.tech/tags/docker/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://stilllearning.tech/tags/blog/</link>

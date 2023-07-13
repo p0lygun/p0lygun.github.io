@@ -20,5 +20,15 @@
       <description>First diary, written using obsidian and Hugo</description>
     </item>
     
+    <item>
+      <title>2023-07-13</title>
+      <link>https://stilllearning.tech/diary/2023-07-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://stilllearning.tech/diary/2023-07-13/</guid>
+      <description>ok it took me a &amp;ldquo;day&amp;rdquo; to configure cloudflare access to the diary path on the domain kek :)
+started the talk about juggernaut bot for BL.</description>
+    </item>
+    
   </channel>
 </rss>
